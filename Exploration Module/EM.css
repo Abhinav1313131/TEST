@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+.section1 {
+display:flex;
+justify-content: center;
+align-items: center;    
+width: 100%;
+height: 535px;
+background: transparent linear-gradient(136deg, #BAE1FF 0%, #56B4FB 100%) 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+#question {
+    text-align: center;
+    font: normal normal bold 35px/47px Open Sans;
+letter-spacing: 0.53px;
+color: #0066CC;
+opacity: 1;
+}
+
+#answer1 {
+    margin-top: -18px;
+    text-align: center;
+    font: normal normal normal 27px/42px Open Sans;
+letter-spacing: 0.54px;
+color: #323232;
+opacity: 1;
+}
+
+#answer2 {
+    margin-top: -25px;
+    text-align: center;
+    font: normal normal normal 27px/42px Open Sans;
+letter-spacing: 0.54px;
+color: #323232;
+opacity: 1;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+button:active {
+    background: #0066CC;
+    -webkit-box-shadow: inset 0px 0px 10px #0066CC;
+    -moz-box-shadow: inset 0px 0px 10px #0066CC;
+    box-shadow: inset 0px 0px 10px #0066CC;
+    outline: none;
+}
+
+.start {
+    
+padding: 10px 27px 10px 27px;
+text-align: center;
+font: normal normal 600 18px/24px Open Sans;
+letter-spacing: 0.36px;
+color: #FFFFFF;
+opacity: 1;
+background: #0066CC 0% 0% no-repeat padding-box;
+box-shadow: 0px 6px 12px #0066CC52;
+border-radius: 22px;
+border: none;
+opacity: 1;
+}
+
+.section2 {
+    margin-top: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;    
+    width: 100%;
+}
+
+#cdtitle {
+    text-align: center;
+    font: normal normal 600 30px/41px Open Sans;
+letter-spacing: 0.45px;
+color: #FFC127;
+opacity: 1;
+}
+
+#cdcontent {
+    margin-top: -30px;
+    font: normal normal bold 43px/59px Open Sans;
+letter-spacing: 0.65px;
+color: #0066CC;
+opacity: 1;
+}
+
+.card {
+    float: left;
+    padding: 0 10px;
+    width: 252px;
+    margin-right: 35px;
+    margin-top: 30px;
+height: 284px;
+background: #FFB3BA 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 10px;
+opacity: 0.65;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#domain{
+padding: 3px 67px 182px 21px;
+    text-align: left;
+font: normal normal 600 25px/35px Open Sans;
+letter-spacing: 0.38px;
+color: #000000;
+opacity: 1;
+}
+
+
+
